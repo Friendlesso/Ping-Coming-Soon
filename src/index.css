@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
 @import 'tailwindcss';
 
+:root {
+  --blue-500: hsl(223, 87%, 63%);
+  --gray-400: hsl(0, 0%, 59%);
+}
+
 body {
   display: flex;
   align-items: center;
