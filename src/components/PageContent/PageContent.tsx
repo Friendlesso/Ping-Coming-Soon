@@ -8,7 +8,7 @@ export function PageContent() {
       <Logo />
       <div className="flex flex-col gap-8 w-full items-center">
         <div className="flex flex-col items-center gap-4">
-          <h1 className="sm:text-6xl text-4xl font-light text-(--gray-400)">We are launching <span className="font-bold text-black">soon!</span></h1>
+          <h1 className="md:text-6xl text-3xl font-light text-(--gray-400)">We are launching <span className="font-bold text-black">soon!</span></h1>
           <p className="sm:text-2xl text-xl">Subscribe and get notified</p>
         </div>
         <Email />
