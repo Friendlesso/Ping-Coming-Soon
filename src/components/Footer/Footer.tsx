@@ -23,6 +23,7 @@ export function Footer() {
       <div className="flex gap-5">
         {socialMedia.map((icon) => (
           <a 
+            key={icon.brand}
             href={icon.link}
             aria-label={icon.lable}
             target="_blank"
