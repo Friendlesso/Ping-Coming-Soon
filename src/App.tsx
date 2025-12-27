@@ -1,12 +1,12 @@
 import { Footer } from "./components/Footer/Footer"
-import { Illustration } from "./components/Illustration/Illustration"
+import { PageContent } from "./components/PageContent/PageContent"
 
 function App() {
 
 
   return (
     <>
-      <Illustration />
+      <PageContent />
       <Footer />
     </>
   )
