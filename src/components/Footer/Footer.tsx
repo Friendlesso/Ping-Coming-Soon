@@ -19,7 +19,7 @@ export function Footer() {
   ]
 
   return (
-    <footer className="flex flex-col items-center mt-auto gap-5 mt-3 text-black">
+    <footer className="flex flex-col items-center mt-auto gap-5 pt-3 text-black">
       <div className="flex gap-5">
         {socialMedia.map((icon) => (
           <a 
